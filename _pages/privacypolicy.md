@@ -1,60 +1,100 @@
 ---
 layout: page
 title: Privacy Policy
-include_in_header: false
+include_in_header: true
 ---
 
 **Last updated**  
-August 1 2019
+November 16, 2024
 
 # Privacy Policy
-Submissive a when owing much far bawdy thanks impolitely alas overlaid one and this one chuckled darn on more due much misheard amused far far the much purposeful that wildebeest dalmatian and piranha bluebird this and much despite however much sincere nonsensical this paradoxically more.
+This Privacy Policy describes how **Golf in Leicht GmbH** (“we”, “our”, “us”) processes information inside the Your Golf Coach iOS and watchOS apps as well as on this website. Transparency, consent, and on-device processing are core parts of our product design.
 
-**Please note:** This is purely a dummy Privacy Policy that serves as an example for how you can use this app landing page generator. Please replace the contents with your own privacy policy.
+## 1. Controller & Contact
+- **Controller:** Golf in Leicht GmbH (Your Golf Coach), Bremen, Germany  
+- **Support & data requests:** [app@fabianbuenker.de](mailto:app@fabianbuenker.de)  
+- **Data deletion requests:** Send an email with the subject “Data Deletion Request” and include your Apple ID email plus any relevant details about stored rounds or sessions.
 
-<br>
+## 2. Scope of this policy
+This policy covers the iOS, watchOS, and TestFlight builds of Your Golf Coach, the optional camera-based launch monitor, analytics/crash reporting, and this marketing website. If future companion services are added (e.g., a web academy), they will be covered by their own policies.
 
-## 1.0 Information We Collect
-Far near but lighted walking far oyster hello kneeled flung and roadrunner and more witless narrowly flexed brokenly blandly much in famous jeez obsessive that.
+## 3. Data we process
+### 3.1 Scorecards, rhythm sessions & preferences
+- Saved locally on your device using Core Data / SwiftData.
+- Optionally synced to your personal iCloud account via CloudKit so the same Apple ID sees the same data.
+- Includes round metadata (course, holes, strokes, shot quality ratings), rhythm session speed, and display preferences.
 
-### 1.1 Information from third parties
-- Ouch until smirked some some newt that at frustrating.
-- Nimbly handsomely fabulously python.
-- Alas informally taped when a dear some.
+### 3.2 Launch monitor footage
+- Captured frames stay on-device inside the app cache (`Library/Caches/LaunchMonitorCache/`).
+- Cached clips are automatically deleted on a FIFO basis (max. 500 MB or 30 days).
+- Nothing is uploaded to our servers; processing runs on your device only.
 
-### 1.2 Information you provide to us 
-Menacingly much walrus far together derisive falcon the toneless unceremoniously yet yikes a hung when because far drooled cast amused naughtily quiet hare a thickly more dogged drank more this dismounted since hence nakedly jeez rolled far gerbil the hey puerilely where vociferously struck insane much twitched instead some beneath then wiped dull snuffed far jeez nightingale bit goodness obscurely quit that much yet nefarious careless some concrete shrewdly gull closed this hugged aboard.
+### 3.3 Support contact & email
+- When you email us, we receive your message, email address, and any files you attach.
+- Stored in our email provider solely to respond to your inquiry.
 
-<br>
+### 3.4 Analytics (optional, opt-in)
+- Provider: Google Firebase Analytics (Google Ireland Limited).
+- Collected only after you toggle consent on in **Settings → Privacy**.
+- Events: feature usage (e.g., rhythm session started), language selection, anonymous identifiers, device type, OS version, app version, consent status.
+- Not collected: name, email, advertising identifiers (IDFA), precise GPS location.
 
-## 2.0 What Personal Information we collect about you and how we collect it
-Where cut one reproachful alas ambiguous helpful hen raucous editorial underwrote dubiously therefore this boastfully or possessively oh modest amidst some opposite far wasp grew emu snickered some jeepers and circa much that *equitable* foul camel caudally oh opossum far dear met far much close hello beheld facetious far goodness tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming or well approving sympathetically groundhog mongoose and deeply peaceful wow ouch far regally this and near and badly fatal blunt mischievously and and the blew.
+### 3.5 Crash reporting (optional, opt-in)
+- Provider: Firebase Crashlytics (Google Ireland Limited).
+- Captures anonymized crash stacks, app version, and device model once you enable consent.
+- Used solely to fix bugs and improve stability.
 
-### 2.1 Third Parties we collect information from
-Various remotely save this querulously explicitly one this and far congenially broad grew said or abhorrently haltered darn beheld panther shrank and one goldfish the more away as much different moth.
+### 3.6 Website diagnostics
+- This static website is hosted via GitHub Pages. GitHub may collect standard web server logs (IP address, browser type, etc.) for security and operation of the service. We do not link those logs to app data.
 
-| Third Party | What is it used for? |
-| :--- | :--- |
-| Falcon | Tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming. |
-| Eagle | Juggled crud a however overslept vehemently kept indisputably anteater walked alas or into. |
+## 4. Why we process your data
+- Provide golf training features, rhythm cues, and scorecard storage.
+- Sync your data between iPhone and Watch via your iCloud account.
+- Maintain security, troubleshoot crashes, and improve stability (with consent).
+- Respond to support requests and fulfill legal obligations (e.g., accounting).
+- Meet regulatory requirements (GDPR/CCPA) for transparency and user rights.
 
-<br>
+## 5. Technologies & processors
+| Service | Purpose | Data location |
+| --- | --- | --- |
+| Apple CloudKit & iCloud | Optional multi-device sync | Stored in the user’s personal iCloud containers managed by Apple (processor) |
+| Firebase Analytics (opt-in) | Usage metrics | EU data centers operated by Google Ireland Limited |
+| Firebase Crashlytics (opt-in) | Crash diagnostics | EU data centers operated by Google Ireland Limited |
+| GitHub Pages | Hosting this marketing site | GitHub (USA) – subject to their privacy policy |
 
-## 3.0 What rights do you, as the data subject, have
-This goodness well well and more cowardly lynx credibly more apart save and less oh examined ouch marginal growled and proper liberally salmon busy some while pointed far because understood.
+We do not sell information, and we do not share personal data with advertisers.
 
-1. Boastfully or possessively oh modest amidst.
-2. Far far the much purposeful that wildebeest dalmatian.
-3. Adamant or pushed less far overthrew.
+## 6. Legal bases
+- **Performance of a contract:** Provide core app features you request.
+- **Consent:** Analytics, crash reporting, and marketing communications.
+- **Legitimate interest:** Safeguard the service, prevent abuse, and comply with platform requirements.
+- **Legal obligation:** Respond to lawful requests or fulfill accounting/tax rules.
 
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+## 7. Retention
+- On-device data stays until you delete it from the app or remove the app.
+- iCloud data stays until you delete it from the app, revoke iCloud sync, or remove it via iCloud.com.
+- Analytics and crash logs follow Firebase retention (currently 2–14 months, configurable).
+- Support emails are purged once your request has been fulfilled or legal retention expires.
 
-<br>
+## 8. Your rights (GDPR/CCPA)
+Depending on your jurisdiction, you may have the right to:
+- Access, rectify, or delete your personal data.
+- Restrict or object to certain processing.
+- Withdraw analytics/crash consent at any time.
+- Port the data you supplied (export scorecards via Apple’s iCloud export tools).
+- Lodge a complaint with your supervisory authority.
 
-## 4.0 How we store and secure the Personal Information we collect
-Worm where gravely behind logically far in tastefully as alas delicately before well darn then far the much pulled red-handed circa much much far pangolin spelled much clung dachshund smirked close some the adamant or pushed less far overthrew in moth begrudging warthog newt pragmatic bent darn and far needlessly notwithstanding angrily as celestially horse rebuking magnanimous dear inscrutably jeepers listless before saucy this much however and wolf dear cringed crab a wanton jeepers flatteringly characteristically a atrocious and returned more lemming robin let some crud that more secure nimble where soundly pitiful because bombastic much.
+## 9. Exercising your rights & deleting data
+1. Open **Settings → Privacy** inside the app to toggle analytics/crash consent.
+2. Delete rounds or rhythm sessions directly inside the relevant tabs.
+3. Remove the app to delete local data.  
+4. Email [app@fabianbuenker.de](mailto:app@fabianbuenker.de) with the subject “Data Deletion Request” if you need us to delete residual support messages or confirm the removal of analytics data. Include the Apple ID email linked to your iCloud account so we can locate entries.
 
-<br>
+## 10. Children’s privacy
+Your Golf Coach is intended for adult golfers and is not directed to children under 16. We do not knowingly collect personal information from children. If you are a parent or guardian and believe we have collected information from your child, contact us so we can delete it.
 
-## 5.0 Information processing and transfers for EEA individuals
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh.
+## 11. Changes to this policy
+We may update this Privacy Policy as the product evolves. Material changes will be highlighted in the app (Settings → Privacy) and on this page with a new “Last updated” date. Continued use of the app after changes takes effect constitutes acceptance of the revised policy.
+
+## 12. Contact
+Questions about privacy? Email [app@fabianbuenker.de](mailto:app@fabianbuenker.de) and we’ll respond as soon as possible.
