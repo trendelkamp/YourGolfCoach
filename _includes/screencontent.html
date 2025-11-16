@@ -1,7 +1,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+{% assign preferred_screenshot = site.primary_screenshot | default: "" %}
+
 {% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/' %}
+        {% assign filename = file.path | split: '/' | last %}
+        {% if preferred_screenshot != "" and filename != preferred_screenshot %}
+            {% continue %}
+        {% endif %}
         <script>
             $(function() {
                 $(".iphoneScreen").attr('src', '{{ site.github.baseurl }}{{ file.path }}');
@@ -9,6 +15,9 @@
                 console.log("{{ file.path }}");
             });
         </script>
+        {% if preferred_screenshot != "" %}
+            {% break %}
+        {% endif %}
     {% elsif file.path contains 'assets/videos/' %}
         {% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}
             <script>

@@ -22,7 +22,7 @@ The rest of the files belong to the upstream theme (layouts, includes, Sass part
    - Update `presskit_download_link` if you host a press kit ZIP either locally under `assets/` or on another service.
 
 2. **Screenshots or video**  
-   - Current screenshots live as `assets/screenshot/screenshot-01.png` … `screenshot-04.png`. Replace them with updated PNGs sized 1242×2688, 1125×2436, or 828×1792 (the last alphabetical file is what shows on the homepage).  
+   - Current screenshots live as `assets/screenshot/screenshot-01.png` … `screenshot-04.png`. Replace them with updated PNGs sized 1242×2688, 1125×2436, or 828×1792; set `primary_screenshot` in `_config.yml` (currently `screenshot-01.png`) to control which one appears in the device mockup.  
    - For video previews, drop appropriately encoded `.mp4/.mov` (Safari) and `.webm/.ogg` (Chrome/Firefox) files into `assets/videos/`.
 
 3. **Legal documents**  
@@ -38,7 +38,7 @@ The rest of the files belong to the upstream theme (layouts, includes, Sass part
 1. Install Ruby + Bundler if you want to run Jekyll locally.
 2. `bundle install` (uses the provided `Gemfile`).  
 3. `bundle exec jekyll serve` to preview at `http://localhost:4000`.  
-4. Push to the `main` branch — GitHub Pages will rebuild automatically (ensure Pages is enabled in the repo settings, targeting the `main` branch and `/ (root)` folder).  
+4. Push to the `main` branch — GitHub Pages will rebuild automatically (ensure Pages is enabled in the repo settings, targeting the `main` branch and `/ (root)` folder). The live site is presently served at `https://trendelkamp.github.io/YourGolfCoach/`.  
 5. If you configure a custom domain, fill the `CNAME` file with your hostname and update DNS (A/AAAA for GitHub Pages).
 
 ## Support
